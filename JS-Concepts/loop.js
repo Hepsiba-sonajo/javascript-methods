@@ -13,35 +13,33 @@ array.forEach(element => {
 });
 
 //Map
-// let result = array.map( (element) => {
-//     return element * 2;
-   
-// })
-//console.log(result);
+let result = array.map( (element) => {
+    return element * 2;
+})
+console.log(result);
+
 //Filter
-// let result = array.filter((item,index) => {
-//     return item > 2;
-//      })
-//     console.log(result);
+let result = array.filter((item,index) => {
+    return item > 2;
+     })
+    console.log(result);
 
 //Find
-//let result = array.find( (item) => {
-// return (item > 3);
-// });
-//console.log(result);
+let result = array.find( (item) => {
+return (item > 3);
+});
+console.log(result);
 
 
 //Reduce
-// let result = array.reduce( (acc , current) => {
-//     return acc + current;
-    
-// })
-// console.log(result); // 28
+let result = array.reduce( (acc , current) => {
+    return acc + current; 
+})
+console.log(result); // 28
 
 //Spread
-
 var number = [1,2,3,4,5,6,7]
-//console.log(...number);
+console.log(...number);
 
 
 //Rest
